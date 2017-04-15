@@ -1,0 +1,49 @@
+html,
+body {
+  font-size: 16px;
+  line-height: normal;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: #34383b;
+}
+a,
+a:hover,
+a:focus {
+  color: #fff;
+}
+a:hover,
+input[type=submit]:hover {
+  opacity: 0.5;
+}
+a:active {
+  color: #d5d5d5;
+}
+*,
+*::before,
+*:before,
+*::after,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  font-size: 3em;
+  color: #a0a4a8;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+}
+.header__title {
+  text-transform: uppercase;
+}
+.header__text_vivid {
+  color: #ffa500;
+}
+.header__subtitle {
+  font-size: 0.75em;
+  color: #a0a4a8;
+}
